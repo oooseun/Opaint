@@ -14,6 +14,7 @@
 		FFBE507B1E47EBD1002612D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBE50791E47EBD1002612D7 /* LaunchScreen.storyboard */; };
 		FFBE50861E47EBD2002612D7 /* PaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE50851E47EBD2002612D7 /* PaintTests.swift */; };
 		FFBE50911E47EBD2002612D7 /* PaintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE50901E47EBD2002612D7 /* PaintUITests.swift */; };
+		FFBE50A11E48215A002612D7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBE50A01E48215A002612D7 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FFBE506D1E47EBD1002612D7 /* Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE506D1E47EBD1002612D7 /* Opaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBE50701E47EBD1002612D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFBE50721E47EBD1002612D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFBE50751E47EBD1002612D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFBE50771E47EBD1002612D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFBE507A1E47EBD1002612D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFBE507C1E47EBD1002612D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFBE50811E47EBD1002612D7 /* PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE50811E47EBD1002612D7 /* OpaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBE50851E47EBD2002612D7 /* PaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintTests.swift; sourceTree = "<group>"; };
 		FFBE50871E47EBD2002612D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFBE508C1E47EBD2002612D7 /* PaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBE508C1E47EBD2002612D7 /* OpaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBE50901E47EBD2002612D7 /* PaintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintUITests.swift; sourceTree = "<group>"; };
 		FFBE50921E47EBD2002612D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBE50A01E48215A002612D7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Assets/icon.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		FFBE506E1E47EBD1002612D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFBE506D1E47EBD1002612D7 /* Paint.app */,
-				FFBE50811E47EBD1002612D7 /* PaintTests.xctest */,
-				FFBE508C1E47EBD2002612D7 /* PaintUITests.xctest */,
+				FFBE506D1E47EBD1002612D7 /* Opaint.app */,
+				FFBE50811E47EBD1002612D7 /* OpaintTests.xctest */,
+				FFBE508C1E47EBD2002612D7 /* OpaintUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +99,7 @@
 		FFBE506F1E47EBD1002612D7 /* Paint */ = {
 			isa = PBXGroup;
 			children = (
+				FFBE50A01E48215A002612D7 /* icon.png */,
 				FFBE50701E47EBD1002612D7 /* AppDelegate.swift */,
 				FFBE50721E47EBD1002612D7 /* ViewController.swift */,
 				FFBE50741E47EBD1002612D7 /* Main.storyboard */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFBE506C1E47EBD1002612D7 /* Paint */ = {
+		FFBE506C1E47EBD1002612D7 /* Opaint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFBE50951E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "Paint" */;
+			buildConfigurationList = FFBE50951E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "Opaint" */;
 			buildPhases = (
 				FFBE50691E47EBD1002612D7 /* Sources */,
 				FFBE506A1E47EBD1002612D7 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Paint;
+			name = Opaint;
 			productName = Paint;
-			productReference = FFBE506D1E47EBD1002612D7 /* Paint.app */;
+			productReference = FFBE506D1E47EBD1002612D7 /* Opaint.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FFBE50801E47EBD1002612D7 /* PaintTests */ = {
+		FFBE50801E47EBD1002612D7 /* OpaintTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFBE50981E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "PaintTests" */;
+			buildConfigurationList = FFBE50981E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "OpaintTests" */;
 			buildPhases = (
 				FFBE507D1E47EBD1002612D7 /* Sources */,
 				FFBE507E1E47EBD1002612D7 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				FFBE50831E47EBD1002612D7 /* PBXTargetDependency */,
 			);
-			name = PaintTests;
+			name = OpaintTests;
 			productName = PaintTests;
-			productReference = FFBE50811E47EBD1002612D7 /* PaintTests.xctest */;
+			productReference = FFBE50811E47EBD1002612D7 /* OpaintTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FFBE508B1E47EBD2002612D7 /* PaintUITests */ = {
+		FFBE508B1E47EBD2002612D7 /* OpaintUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFBE509B1E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "PaintUITests" */;
+			buildConfigurationList = FFBE509B1E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "OpaintUITests" */;
 			buildPhases = (
 				FFBE50881E47EBD2002612D7 /* Sources */,
 				FFBE50891E47EBD2002612D7 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				FFBE508E1E47EBD2002612D7 /* PBXTargetDependency */,
 			);
-			name = PaintUITests;
+			name = OpaintUITests;
 			productName = PaintUITests;
-			productReference = FFBE508C1E47EBD2002612D7 /* PaintUITests.xctest */;
+			productReference = FFBE508C1E47EBD2002612D7 /* OpaintUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FFBE50681E47EBD1002612D7 /* Build configuration list for PBXProject "Paint" */;
+			buildConfigurationList = FFBE50681E47EBD1002612D7 /* Build configuration list for PBXProject "Opaint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFBE506C1E47EBD1002612D7 /* Paint */,
-				FFBE50801E47EBD1002612D7 /* PaintTests */,
-				FFBE508B1E47EBD2002612D7 /* PaintUITests */,
+				FFBE506C1E47EBD1002612D7 /* Opaint */,
+				FFBE50801E47EBD1002612D7 /* OpaintTests */,
+				FFBE508B1E47EBD2002612D7 /* OpaintUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBE50A11E48215A002612D7 /* icon.png in Resources */,
 				FFBE507B1E47EBD1002612D7 /* LaunchScreen.storyboard in Resources */,
 				FFBE50781E47EBD1002612D7 /* Assets.xcassets in Resources */,
 				FFBE50761E47EBD1002612D7 /* Main.storyboard in Resources */,
@@ -288,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		FFBE50831E47EBD1002612D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FFBE506C1E47EBD1002612D7 /* Paint */;
+			target = FFBE506C1E47EBD1002612D7 /* Opaint */;
 			targetProxy = FFBE50821E47EBD1002612D7 /* PBXContainerItemProxy */;
 		};
 		FFBE508E1E47EBD2002612D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FFBE506C1E47EBD1002612D7 /* Paint */;
+			target = FFBE506C1E47EBD1002612D7 /* Opaint */;
 			targetProxy = FFBE508D1E47EBD2002612D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,9 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YPRC2ATDC;
 				INFOPLIST_FILE = Paint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oooseun.Paint;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Opaint;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,9 +433,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YPRC2ATDC;
 				INFOPLIST_FILE = Paint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oooseun.Paint;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Opaint;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -446,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = oooseun.PaintTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint.app/Paint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opaint.app/Opaint";
 			};
 			name = Debug;
 		};
@@ -461,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = oooseun.PaintTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint.app/Paint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opaint.app/Opaint";
 			};
 			name = Release;
 		};
@@ -496,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFBE50681E47EBD1002612D7 /* Build configuration list for PBXProject "Paint" */ = {
+		FFBE50681E47EBD1002612D7 /* Build configuration list for PBXProject "Opaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFBE50931E47EBD2002612D7 /* Debug */,
@@ -505,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFBE50951E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "Paint" */ = {
+		FFBE50951E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "Opaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFBE50961E47EBD2002612D7 /* Debug */,
@@ -513,7 +519,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		FFBE50981E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "PaintTests" */ = {
+		FFBE50981E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "OpaintTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFBE50991E47EBD2002612D7 /* Debug */,
@@ -521,7 +527,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		FFBE509B1E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "PaintUITests" */ = {
+		FFBE509B1E47EBD2002612D7 /* Build configuration list for PBXNativeTarget "OpaintUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFBE509C1E47EBD2002612D7 /* Debug */,

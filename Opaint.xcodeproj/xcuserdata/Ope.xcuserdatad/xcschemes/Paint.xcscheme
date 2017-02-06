@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FFBE506C1E47EBD1002612D7"
-               BuildableName = "Paint.app"
-               BlueprintName = "Paint"
-               ReferencedContainer = "container:Paint.xcodeproj">
+               BuildableName = "Opaint.app"
+               BlueprintName = "Opaint"
+               ReferencedContainer = "container:Opaint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FFBE50801E47EBD1002612D7"
-               BuildableName = "PaintTests.xctest"
-               BlueprintName = "PaintTests"
-               ReferencedContainer = "container:Paint.xcodeproj">
+               BuildableName = "OpaintTests.xctest"
+               BlueprintName = "OpaintTests"
+               ReferencedContainer = "container:Opaint.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FFBE508B1E47EBD2002612D7"
-               BuildableName = "PaintUITests.xctest"
-               BlueprintName = "PaintUITests"
-               ReferencedContainer = "container:Paint.xcodeproj">
+               BuildableName = "OpaintUITests.xctest"
+               BlueprintName = "OpaintUITests"
+               ReferencedContainer = "container:Opaint.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFBE506C1E47EBD1002612D7"
-            BuildableName = "Paint.app"
-            BlueprintName = "Paint"
-            ReferencedContainer = "container:Paint.xcodeproj">
+            BuildableName = "Opaint.app"
+            BlueprintName = "Opaint"
+            ReferencedContainer = "container:Opaint.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFBE506C1E47EBD1002612D7"
-            BuildableName = "Paint.app"
-            BlueprintName = "Paint"
-            ReferencedContainer = "container:Paint.xcodeproj">
+            BuildableName = "Opaint.app"
+            BlueprintName = "Opaint"
+            ReferencedContainer = "container:Opaint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFBE506C1E47EBD1002612D7"
-            BuildableName = "Paint.app"
-            BlueprintName = "Paint"
-            ReferencedContainer = "container:Paint.xcodeproj">
+            BuildableName = "Opaint.app"
+            BlueprintName = "Opaint"
+            ReferencedContainer = "container:Opaint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
